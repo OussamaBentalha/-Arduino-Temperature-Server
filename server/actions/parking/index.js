@@ -6,6 +6,7 @@ module.exports = function(app){
         create: require('./create')(app),
         show: require('./show')(app),
         list: require('./list')(app),
-        update: require('./update')(app)
+        update: require('./update')(app),
+        remove: require('./remove')(app)
     }
 }

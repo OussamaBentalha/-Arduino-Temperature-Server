@@ -23,5 +23,9 @@ module.exports = function(app){
         app.actions.parking.update
     );
 
+    router.delete('/:id',
+        app.actions.parking.remove
+    );
+
     return router;
 };

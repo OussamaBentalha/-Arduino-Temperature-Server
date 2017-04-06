@@ -5,7 +5,7 @@ module.exports = function (app) {
     return function(req, res, next){
         var parking = new app.models.Parking({
             place: req.body.place,
-            distance: req.body.distance
+            isFree: req.body.isFree
         });
 
         parking.save(function (err, instance) {
@@ -14,5 +14,6 @@ module.exports = function (app) {
 
             res.send(instance);
         });
+
     }
 };

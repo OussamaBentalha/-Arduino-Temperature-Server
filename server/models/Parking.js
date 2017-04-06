@@ -7,8 +7,8 @@ module.exports = function(app){
             type: Number,
             required: true
         },
-        distance: {
-            type: Number,
+        isFree: {
+            type: Boolean,
             required: true
         }
     });
