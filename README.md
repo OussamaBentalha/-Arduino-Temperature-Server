@@ -1,4 +1,4 @@
-#Simple Todo list Express Server.
+#Simple Parking Server For Arduino.
 
 1. install dependencies through `npm install`  
 1.1 if you need to save your freshly added dependency use `npm install --save <myNewDependency>`  
@@ -9,8 +9,7 @@
 3. start the server with the command `node server`
 
 ### Service layer
->routes/  
->middlewares/  
+>routes/
 
 ### Business layer
 >actions/
@@ -18,6 +17,14 @@
 ### Persistence layer
 >models/
 
-
 ### Available configurations
 > settings/
+
+4. Models
+### Parking
+> place/
+> distance/
+
+4. Webservice
+### Postman
+> https://www.getpostman.com/collections/0c5ef538bf34ef353a04/
