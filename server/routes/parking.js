@@ -7,15 +7,24 @@ var bodyparser = require('body-parser').json();
 module.exports = function(app){
     router.post('/',
         bodyparser,
-        app.actions.distance.create
+        app.actions.parking.create
     );
 
     router.get('/',
-        app.actions.distance.list
+        app.actions.parking.list
     );
 
     router.get('/:id',
-        app.actions.distance.show
+        app.actions.parking.show
+    );
+
+    router.put('/:id',
+        bodyparser,
+        app.actions.parking.update
+    );
+
+    router.delete('/:id',
+        app.actions.parking.remove
     );
 
     return router;

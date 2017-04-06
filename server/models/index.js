@@ -4,5 +4,5 @@ module.exports = function(app){
     app.mongoose = mongoose.connect(app.settings.db);
 
     app.models = {};
-    app.models.Distance = require('./Distance')(app);
+    app.models.Parking = require('./Parking')(app);
 };

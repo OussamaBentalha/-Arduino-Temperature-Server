@@ -4,13 +4,12 @@ module.exports = {
     /***********
      * LOCALHOST
      ************/
-    db: 'mongodb://oussama445:SOSrabzouz27@ds151060.mlab.com:51060/arduinotemperature',
+    //db: 'mongodb://localhost:27017/parking-server',
 
     /***********
      * MONGOLAB
      ************/
-    //db: 'mongodb://heroku_0bcx23jj:9m6811rb7vodv4pkrrapuo7aab@ds059185.mongolab.com:59185/heroku_0bcx23jj',
-    //sessionDb: 'mongodb://heroku_z34shwgt:ed7ur8153k398p2bqs96hieor2@ds055895.mongolab.com:55895/heroku_z34shwgt',
+    db: 'mongodb://admin:admin@ds145750.mlab.com:45750/parking-server',
 
     sessionTTL: 2 * 24 * 60 * 60
 };

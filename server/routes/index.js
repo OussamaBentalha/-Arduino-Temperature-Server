@@ -1,3 +1,3 @@
 module.exports = function(app){
-    app.use('/api/distance', require('./distance')(app));
+    app.use('/api/parking', require('./parking')(app));
 };
