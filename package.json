@@ -6,7 +6,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "bcrypt": "latest",
     "bluebird": "latest",
     "body-parser": "latest",
     "connect-mongo": "latest",
